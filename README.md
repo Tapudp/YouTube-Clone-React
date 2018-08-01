@@ -14,7 +14,11 @@
   - video_list.js
   - video_list_item.js
 
-### 12 - YouTube Search API
+ ### 12 - YouTube Search API
    generated API key from the console.developer.google.com 
    and added it in the file
    as well installed `npm install --save youtube-search-api`
+
+ ### 13 Export
+  the created component need to exported and then imported in the main `index.js`
+  mostly created search bar and imported it in the main file.
