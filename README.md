@@ -22,3 +22,14 @@
  ### 13 Export
   the created component need to exported and then imported in the main `index.js`
   mostly created search bar and imported it in the main file.
+
+ ### 14 Class based Components
+  made the Search Bar a class based component instead of functional component
+
+### 15 Handling User events
+  added the `onChange` event with the `onInputChange` function and then make it to the single line arrow function
+
+### 16 Introduction to State
+  state is an plain javascript object that is used to record and react to user events. Each class based component we define has it's own state.
+  
+  only defined class and the `super(props)` method from the parent class, almost OOPs
