@@ -13,3 +13,8 @@
   - video_detail.js
   - video_list.js
   - video_list_item.js
+
+### 12 - YouTube Search API
+   generated API key from the console.developer.google.com 
+   and added it in the file
+   as well installed `npm install --save youtube-search-api`
