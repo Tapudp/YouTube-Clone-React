@@ -36,3 +36,8 @@
 
 ### 25 Video list items
   rendered all the video list with a fixed search given in index.js, and got the imageUrl from the YouTube api response as `video.snippet.thumbnails.url`
+
+### 26 Detail component and Template Strings
+  created the video detail component for particular video to play, also used the template string while creating URL and now will render it as we add it in index.js
+
+  remember the bootstrap class `embed-responsive-16by9` and the `iframe` that would let us create the video frame that we need
