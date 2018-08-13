@@ -33,3 +33,6 @@
   state is an plain javascript object that is used to record and react to user events. Each class based component we define has it's own state.
   
   only defined class and the `super(props)` method from the parent class, almost OOPs
+
+### 25 Video list items
+  rendered all the video list with a fixed search given in index.js, and got the imageUrl from the YouTube api response as `video.snippet.thumbnails.url`
