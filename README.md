@@ -41,3 +41,9 @@
   created the video detail component for particular video to play, also used the template string while creating URL and now will render it as we add it in index.js
 
   remember the bootstrap class `embed-responsive-16by9` and the `iframe` that would let us create the video frame that we need
+
+### 27 Handlind Null props
+  adding the `VideoDetail` component to main `index.js` to render it between the `SearchBar` and `videoList`.
+  gave the prop to `VideoDetail` component, which gives error as it can't find the `id` of undefined(video) because YT api is still fetching the data in background
+
+  just added the Loading to render since video array won't be defined so a simple `if` statement
