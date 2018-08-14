@@ -47,3 +47,10 @@
   gave the prop to `VideoDetail` component, which gives error as it can't find the `id` of undefined(video) because YT api is still fetching the data in background
 
   just added the Loading to render since video array won't be defined so a simple `if` statement
+
+### 28 Video Selection
+  selected video concept in the app component itself to render individual videos when clicked.
+  Solved the error because didn't put the `onVideoSelect` callback in the VideoList component itself. It will a particular component.
+
+### 29 adding style with css
+  writing CSS stuff out.
