@@ -57,3 +57,20 @@
 
 ### 30 Searching for videos
   added search bar functionalities and created call backs pertaining to that `videoSearch` and `onSearchTermChanged` passed to Searchbar component.
+
+### 31 Throttling Search term input
+  - using functional library called Loadash
+  one particular Utility method is `de-bounce` to basically throttle how often a function is called
+  - rather than saying the whole name industry standard is to use an underscore while working with it.
+  - basically added time interval so that app will load within that time and looks smooth.
+
+### 32 Wrapup
+  - differnece between `class` based component and functional component, just the matter of using state
+  - functional components are lightweight and fast.
+
+  - `state` it resides in constructor whenever a class is defined.
+
+  - `import` and `export` statements 
+
+  - callbacks to manipulate data
+  where as in redux we won't have these much amount of callbacks and lot of stuff will get clearer
