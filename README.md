@@ -54,3 +54,6 @@
 
 ### 29 adding style with css
   writing CSS stuff out.
+
+### 30 Searching for videos
+  added search bar functionalities and created call backs pertaining to that `videoSearch` and `onSearchTermChanged` passed to Searchbar component.
